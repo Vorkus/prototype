@@ -1,6 +1,6 @@
 function Home() {
     return (
-        <p>Home!</p>
+        <h1 className="text-3xl font-bold underline">Home!</h1>
     )
 }
 
