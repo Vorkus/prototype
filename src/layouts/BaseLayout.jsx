@@ -1,24 +1,15 @@
-import {Link} from "react-router-dom";
+import Header from "../components/Header/Header.jsx";
+import Footer from "../components/Footer/Footer.jsx";
 
 function BaseLayout({ children }) {
     return (
-        <div>
-            <header>
-                <nav>
-                    <ul>
-                        <li><Link to="/">Home</Link></li>
-                        <li><Link to="/gallery">Gallery</Link></li>
-                        <li><Link to="/meshEditor">Mesh Editor</Link></li>
-                    </ul>
-                </nav>
-            </header>
+        <>
+            <Header />
             <main>
                 { children }
             </main>
-            <footer>
-                <p>© 2024 Proto</p>
-            </footer>
-        </div>
+            <Footer />
+        </>
     )
 }
 
