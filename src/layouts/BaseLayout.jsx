@@ -1,5 +1,4 @@
 import {Link} from "react-router-dom";
-import './BaseLayout.css'
 
 function BaseLayout({ children }) {
     return (
