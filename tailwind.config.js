@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "main-gradient": `
+        gallery: `
           linear-gradient(
             to top right,
             ${colors.purple["400"]},
