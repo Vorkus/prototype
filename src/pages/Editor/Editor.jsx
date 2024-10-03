@@ -1,7 +1,5 @@
-function MeshEditor() {
-    return (
-        <p>MeshEditor!</p>
-    )
+function Editor() {
+  return <p>Editor!</p>;
 }
 
-export default MeshEditor;
+export default Editor;
